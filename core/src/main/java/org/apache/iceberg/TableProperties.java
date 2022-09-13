@@ -146,6 +146,9 @@ public class TableProperties {
   public static final String OBJECT_STORE_ENABLED = "write.object-storage.enabled";
   public static final boolean OBJECT_STORE_ENABLED_DEFAULT = false;
 
+  public static final String OBJECT_STORE_ENABLED_EXTENDED_PREFIX = "write.object-storage.extended.prefix.enabled";
+  public static final boolean OBJECT_STORE_ENABLED_EXTENDED_PREFIX_DEFAULT = false;
+
   /**
    * @deprecated Use {@link #WRITE_DATA_LOCATION} instead.
    */
